@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/listbackground"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/listname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#FFC400"
+        tools:text="Item name"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/listpricetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="@string/listpricetext"
+            android:textColor="#FFC107"
+            tools:text="Item Price"/>
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/listprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#FFC107"
+        tools:text="Item Price"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/listqtytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="@string/listqtytext"
+            android:textColor="#FFC107"
+            tools:text="Item Price"/>
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/listquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="125dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        tools:text="Item Quantity"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/listsalesbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/listitem_sell"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+    <TextView
+        android:id="@+id/listid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+</LinearLayout>

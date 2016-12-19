@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Items</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+
+    //Editor Layout
+    <string name="item_name">    Item name</string>
+    <string name="hint_item_name">Item name</string>
+    <string name="item_price">Item Price   </string>
+    <string name="hint_item_price">Item Price</string>
+    <string name="item_quantity">Item Quantity</string>
+    <string name="hint_item_quantity">Item Quantity</string>
+    <string name="vendor_email">Vendor email </string>
+    <string name="hint_vendor_email">XXX@xxx.com</string>
+    <string name="order_Button">Order</string>
+
+    //Menu Layout
+    <string name="action_insert_dummy_data">Insert Dummy record</string>
+    <string name="action_delete_all_entries">Delete all</string>
+    <string name="action_save">Save item</string>
+    <string name="action_delete">Delete item</string>
+
+    //Menu heading
+    <string name="editor_activity_title_new_item"> Add new item</string>
+    <string name="editor_activity_title_edit_item"> Edit Item</string>
+    <string name="editor_insert_item_failed">Error with saving item</string>
+    <string name="editor_insert_item_successful">Item saved</string>
+    <string name="editor_update_item_successful">Item updated</string>
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    //pop up menu
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_item_successful">Item deleted</string>
+    <string name="editor_delete_item_failed">Error with deleting Item</string>
+    <string name="photo_Button">Select picture</string>
+    <string name ="listitem_sell"> Track Sales</string>
+    <string name="delete_Button">Delete Item</string>
+    <string name="listpricetext">Item Price</string>
+    <string name="listqtytext">Quantity</string>
+    <string name="update_Button">Update</string>
+    <string name="mandatoryfielderror">Item name, Price or Quantity cannot be blanks</string>
+
+</resources>
